@@ -1,0 +1,40 @@
+{
+  "name": "gulp-uncss-task",
+  "version": "0.1.0",
+  "description": "A Gulp task for removing unused CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/addyosmani/gulp-uncss-task"
+  },
+  "keywords": [
+    "uncss",
+    "unused",
+    "css"
+  ],
+  "dependencies": {
+    "event-stream": "~3.0.20",
+    "gulp-util": "~2.2.0",
+    "uncss": "~0.6.1"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "gulp": "~3.2.0"
+  },
+  "author": {
+    "name": "Addy Osmani",
+    "email": "addyosmani@gmail.com",
+    "url": "http://addyosmani.com"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/addyosmani/gulp-uncss-task/issues"
+  },
+  "homepage": "https://github.com/addyosmani/gulp-uncss-task"
+}
