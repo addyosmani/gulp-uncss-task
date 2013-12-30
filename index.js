@@ -7,7 +7,6 @@ module.exports = function() {
     var input = args[0].html;
     var options = {};
 
-    options.compress = args[0].compress === false ? false: true;
     options.csspath = args[0].csspath;
     options.stylesheets = args[0].stylesheets;
     options.ignore = args[0].ignore;
