@@ -24,8 +24,7 @@ var uncss = require('gulp-uncss-task');
 gulp.task('default', function() {
     gulp.src('bootstrap.css')
         .pipe(uncss({
-            html: ['index.html', 'contact.html', 'about.html'],
-            compress: true
+            html: ['index.html', 'contact.html', 'about.html']
         }))
         .pipe(gulp.dest('dest'));
 });
@@ -36,7 +35,6 @@ gulp.task('default', function() {
 Sample use of all supported options:
 
 ```
-compress: true,
 ignore: ['#added_at_runtime', /test\-[0-9]+/],
 csspath: "../public/css/",
 raw: 'h1 { color: green }',
@@ -46,7 +44,6 @@ timeout: 1000
 
 ### What do the options do?
 
-- __compress__ [Boolean]: Whether the CSS output should be compressed.
 - __ignore__ [Array]: provide a list of selectors that should not be removed by UnCSS. For example, styles added by user interaction with the page (hover, click), since those are not detectable by UnCSS yet. Both literal names and regex patterns are recognized.
 - __csspath__ [String]: Path where the CSS files are related to the html files. By default, UnCSS uses the path specified in the <link rel="stylesheet" href="path/to/file.css"\>
 - __stylesheets__ [Array]: Force the list of stylesheets to optimize using a path relative to the `Gruntfile.js`. Otherwise, it extracts the stylesheets from the html files.
