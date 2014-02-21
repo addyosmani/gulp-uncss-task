@@ -17,7 +17,7 @@ npm install --save-dev gulp-uncss-task
 
 ## Usage
 
-```
+```js
 var gulp = require('gulp');
 var uncss = require('gulp-uncss-task');
 
