@@ -18,7 +18,7 @@
   ],
   "dependencies": {
     "event-stream": "~3.0.20",
-    "gulp-util": "~2.2.0",
+    "gulp-util": "~2.2.13",
     "uncss": "~0.7.9"
   },
   "devDependencies": {
