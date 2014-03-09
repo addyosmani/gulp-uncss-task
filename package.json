@@ -19,7 +19,7 @@
   "dependencies": {
     "event-stream": "~3.0.20",
     "gulp-util": "~2.2.0",
-    "uncss": "~0.6.1"
+    "uncss": "~0.7.9"
   },
   "devDependencies": {
     "mocha": "*",
