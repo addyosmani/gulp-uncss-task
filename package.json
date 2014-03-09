@@ -1,6 +1,6 @@
 {
   "name": "gulp-uncss-task",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A Gulp task for removing unused CSS",
   "main": "index.js",
   "scripts": {
