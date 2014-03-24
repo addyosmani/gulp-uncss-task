@@ -1,6 +1,6 @@
 {
   "name": "gulp-uncss-task",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "description": "A Gulp task for removing unused CSS",
   "main": "index.js",
   "scripts": {
@@ -17,13 +17,13 @@
     "gulpplugin"
   ],
   "dependencies": {
-    "event-stream": "~3.0.20",
-    "gulp-util": "~2.2.13",
-    "uncss": "~0.7.9"
+    "event-stream": "~3.1.0",
+    "gulp-util": "~2.2.14",
+    "uncss": "~0.8.0"
   },
   "devDependencies": {
     "mocha": "*",
-    "gulp": "~3.2.0"
+    "gulp": "~3.5.6"
   },
   "author": {
     "name": "Addy Osmani",
