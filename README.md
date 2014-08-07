@@ -1,5 +1,7 @@
-gulp-uncss-task
+gulp-uncss-task (deprecated)
 ===============
+
+**Note:** this module is deprecated in favor of [gulp-uncss](https://github.com/ben-eb/gulp-uncss).
 
 > A Gulp task for removing unused CSS
 
